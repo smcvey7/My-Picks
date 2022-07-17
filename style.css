@@ -1,0 +1,79 @@
+body {
+    background: white;
+}
+
+h1#title {
+    font-size: 90px;
+}
+
+header {
+    text-align: center;
+}
+
+h1 a:link {
+    color: black;
+    font-style: normal;
+    text-decoration: none;
+    
+}
+
+h1 a:visited {
+    color: black;
+    font-style: normal;
+}
+
+h1 a:hover {
+    text-decoration: underline;
+}
+
+
+div#navigation span {
+    display: inline-block;
+    font-size: 1em;
+    line-height: 1em;
+    letter-spacing: .35em;
+    vertical-align: top;
+    padding: 10px 35px 10px;
+    
+  }
+
+  div#categories span {
+    display: inline-block;
+    font-size: 1em;
+    line-height: 1em;
+    letter-spacing: .35em;
+    vertical-align: top;
+    padding-top: 35px;
+    
+  }
+  div#categories span h1 {
+    padding-left: 35px;
+  }
+
+
+
+  div#navigation {
+    background-color: black;
+    color: white;
+  }
+
+
+
+  span.current {
+    text-decoration: underline;
+    font-weight: bold;
+
+  }
+
+  div#pitch {
+    background: black;
+    color: white;
+    height: 100px;
+    width: 180px;
+    position:absolute;
+
+  }
+
+  div#pitch p, h1 {
+    margin-left: 10px;
+  }
