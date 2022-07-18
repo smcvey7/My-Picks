@@ -1,79 +1,121 @@
-body {
-    background: white;
+html, body {
+  background: white;
+  
 }
 
 h1#title {
     font-size: 90px;
-}
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Open Sans';
+  }
 
 header {
     text-align: center;
 }
 
-h1 a:link {
-    color: black;
+header h1#title {
+  font-size: 32px;
+}
+
+div#categories h1 a:link {
+    color: white;
     font-style: normal;
     text-decoration: none;
     
 }
 
-h1 a:visited {
-    color: black;
+div#categories h1 a:visited {
+    color: white;
     font-style: normal;
 }
 
-h1 a:hover {
-    text-decoration: underline;
+div#categories h1 a:hover {
+    color: #363636;
 }
 
 
 div#navigation span {
     display: inline-block;
-    font-size: 1em;
+    font-size: 11px;
     line-height: 1em;
     letter-spacing: .35em;
     vertical-align: top;
     padding: 10px 35px 10px;
-    
   }
 
-  div#categories span {
+div.whiteSpace {
+  height: 20px;
+}
+
+div#mainBody {
+  background-color: #7D7D7D;
+  color: white;
+  position: relative;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  height: 100%;
+}
+
+div#categories {
     display: inline-block;
-    font-size: 1em;
-    line-height: 1em;
-    letter-spacing: .35em;
     vertical-align: top;
-    padding-top: 35px;
-    
-  }
-  div#categories span h1 {
     padding-left: 35px;
-  }
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
 
+div#categories h1 {
+  font-size: 40px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
 
+div#categories h4 {
+  font-size: 12px;
+  padding-top: 0px;
+  padding-bottom: 35px;
+  padding-left: 10px;
+  margin-bottom: 0px;
+}
 
-  div#navigation {
-    background-color: black;
-    color: white;
-  }
+div#navigation {
+  background-color: black;
+  color: white;
+  width: 80%;
+  margin: auto;
+}
 
+img#mainPhoto {
+  height: 90%;
+  position: absolute;
+  margin-top: auto;
+  margin-bottom: auto;
+  right: 10px;
+  padding: 20px;
+}
 
+span.current {
+  text-decoration: underline;
+  font-weight: bold;
 
-  span.current {
-    text-decoration: underline;
-    font-weight: bold;
+}
 
-  }
+div#pitch {
+  background: #363636;
+  color: white;
+  height: 80px;
+  width: 180px;
+}
 
-  div#pitch {
-    background: black;
-    color: white;
-    height: 100px;
-    width: 180px;
-    position:absolute;
+div#pitch p {
+  font-size: 11px;
+  padding-top: 10px;
+  margin-left: 10px;
+}
 
-  }
-
-  div#pitch p, h1 {
-    margin-left: 10px;
-  }
+div#pitch h2{
+  font-size: 27px;
+  margin-left: 10px;
+  margin-top: 0px;
+}
