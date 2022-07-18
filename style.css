@@ -1,6 +1,6 @@
 html, body {
   background: white;
-  
+  height: 100%;
 }
 
 h1#title {
@@ -58,11 +58,12 @@ div#mainBody {
 }
 
 div#categories {
-    display: inline-block;
-    vertical-align: top;
-    padding-left: 35px;
-    padding-bottom: 50px;
-    padding-top: 50px;
+  width: 50%;
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 35px;
+  padding-bottom: 50px;
+  padding-top: 50px;
 }
 
 div#categories h1 {
@@ -87,12 +88,18 @@ div#navigation {
 }
 
 img#mainPhoto {
-  height: 90%;
+  width: 50%;
   position: absolute;
   margin-top: auto;
   margin-bottom: auto;
-  right: 10px;
-  padding: 20px;
+  right: 2%;
+  padding-top: 3%;
+}
+
+@media screen and (max-width:1000px){
+  img#mainPhoto {
+    display: none;
+  }
 }
 
 span.current {
@@ -105,7 +112,7 @@ div#pitch {
   background: #363636;
   color: white;
   height: 80px;
-  width: 180px;
+  width: 160px;
 }
 
 div#pitch p {
