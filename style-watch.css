@@ -1,0 +1,148 @@
+html, body {
+    background: white;
+    height: 90%;
+  }
+  
+  header {
+    text-align: center;
+  }
+  
+  h1#pageTitle {
+    font-family: 'Raleway Light';
+    font-size: 32px;
+  }
+  
+  nav {
+    background-color: black;
+    color: white;
+    width: 80%;
+    margin: auto;
+  }
+  nav span {
+    display: inline-block;
+    font-size: 11px;
+    line-height: 10px;
+    letter-spacing: 1px;
+    vertical-align: top;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 4%;
+    padding-right: 4%;
+    font-family: 'Helvetica Neue';
+  }
+
+  nav a:link {
+    color: white;
+    font-style: normal;
+    text-decoration: none;
+  }
+  
+  nav a:visited {
+    color: white;
+    font-style: normal;
+  }
+  
+  nav a:hover {
+    color: #363636;
+    background-color: white;
+  }
+  
+  div.whiteSpace {
+    height: 20px;
+  }
+  
+  p.big a:link {
+    color: white;
+    font-style: normal;
+    text-decoration: none;
+    font-family: 'Raleway Light';
+  }
+  
+  p.big a:visited {
+    color: white;
+    font-style: normal;
+  }
+  
+  p.big a:hover {
+    color: #363636;
+  }
+  
+  div#mainBody {
+    background-color: #7D7D7D;
+    color: white;
+    position: relative;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    height: 100%;
+  }
+
+  section.movie span.left {
+    position: absolute;
+    left: 3%;
+  }
+
+  section.movie span.right {
+    position: absolute;
+    right: 3%;
+  }
+  
+  p.big {
+    font-size: 50px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-left: 2%;
+    font-family: 'Raleway Light';
+  }
+  
+  p.small {
+    font-size: 20px;
+    padding-top: 0px;
+    padding-bottom: 35px;
+    padding-left: 5%;
+    margin-top: 0px;
+    font-family: 'Open Sans Light';
+  }
+  
+  p.leadIn {
+    font-size: 17px;
+    font-family: 'Raleway Light';
+  }
+  
+  img.mediaImageRight {
+    width: 30%;
+    position: absolute;
+    right: 2%;
+  }
+  
+  img.mediaImageLeft {
+    width: 30%;
+    position: absolute;
+    left: 2%;
+  }
+
+  div#pitch {
+    background: #363636;
+    position: absolute;
+    bottom: 1%;
+    color: white;
+    height: 80px;
+    width: 160px;
+  }
+  
+  div#pitch p {
+    font-size: 15px;
+    padding-top: 17px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+    font-family: 'Open Sans Regular';
+  }
+  
+  div#pitch h2{
+    font-size: 27px;
+    margin-left: 10px;
+    margin-top: 0px;
+    font-family: 'Raleway Light';
+  }
+  

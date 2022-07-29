@@ -3,47 +3,68 @@ html, body {
   height: 90%;
 }
 
-h1#pageTitle {
-    font-family: 'Raleway Light';
-    font-size: 32px;
-    }
-
 header {
-    text-align: center;
+  text-align: center;
 }
 
-div#categories h1 a:link {
-    color: white;
-    font-style: normal;
-    text-decoration: none;
-    font-family: 'Raleway Light';
+h1#pageTitle {
+  font-family: 'Raleway Light';
+  font-size: 32px;
 }
 
-div#categories h1 a:visited {
-    color: white;
-    font-style: normal;
+nav {
+  background-color: black;
+  color: white;
+  width: 80%;
+  margin: auto;
+}
+nav span {
+  display: inline-block;
+  font-size: 11px;
+  line-height: 10px;
+  letter-spacing: 1px;
+  vertical-align: top;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 4%;
+  padding-right: 4%;
+  font-family: 'Helvetica Neue';
 }
 
-div#categories h1 a:hover {
-    color: #363636;
+nav a:link {
+  color: white;
+  font-style: normal;
+  text-decoration: none;
 }
 
+nav a:visited {
+  color: white;
+  font-style: normal;
+}
 
-div#navigation span {
-    display: inline-block;
-    font-size: 11px;
-    line-height: 10px;
-    letter-spacing: 1px;
-    vertical-align: top;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 4%;
-    padding-right: 4%;
-    font-family: 'Helvetica Neue';
-  }
+nav a:hover {
+  color: white;
+  text-decoration: underline;
+}
 
 div.whiteSpace {
   height: 20px;
+}
+
+p.big a:link {
+  color: white;
+  font-style: normal;
+  text-decoration: none;
+  font-family: 'Raleway Light';
+}
+
+p.big a:visited {
+  color: white;
+  font-style: normal;
+}
+
+p.big a:hover {
+  color: #363636;
 }
 
 div#mainBody {
@@ -59,19 +80,20 @@ div#mainBody {
 
 div#categories {
   width: 50%;
+  height: 50%;
   display: block;
   padding-left: 2%;
   padding-top: 50px;
 }
 
-div#categories h1 {
+p.big {
   font-size: 50px;
   margin-bottom: 0px;
   margin-top: 0px;
   font-family: 'Raleway Light';
 }
 
-div#categories h4 {
+div.categories p.small {
   font-size: 20px;
   padding-top: 0px;
   padding-bottom: 35px;
@@ -80,16 +102,9 @@ div#categories h4 {
   font-family: 'Open Sans Light';
 }
 
-div#categories p {
+p.leadIn {
   font-size: 17px;
   font-family: 'Raleway Light';
-}
-
-div#navigation {
-  background-color: black;
-  color: white;
-  width: 80%;
-  margin: auto;
 }
 
 img.mainPhoto {
@@ -99,19 +114,13 @@ img.mainPhoto {
   top: 2%;
 }
 
-@media screen and (max-width:1000px){
+@media screen and (max-width:1100px){
   img.mainPhoto {
     display: none;
   }
-  div#navigation {
+  nav span {
     display: none;
   }
-}
-
-span.current {
-  text-decoration: underline;
-  font-weight: bold;
-
 }
 
 div#pitch {
@@ -119,19 +128,60 @@ div#pitch {
   color: white;
   height: 80px;
   width: 160px;
+  margin-top: 80px;
 }
 
-div#pitch p {
+div#pitch p.small {
   font-size: 15px;
   padding-top: 17px;
-  margin-left: 10px;
+  padding-left: 10px;
   margin-bottom: 0px;
   font-family: 'Open Sans Regular';
 }
 
-div#pitch h2{
-  font-size: 27px;
+#pitchMe {
+  font-size: 30px;
   margin-left: 10px;
-  margin-top: 0px;
+  margin-top: 10px;
   font-family: 'Raleway Light';
+  background-color: #363636;
+  color: white;
+}
+
+#pitchMe:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+form#pitchClick {
+  display: none;
+}
+
+div#pitchInitial {
+  display: contents;
+}
+
+form#pitchClick p, input.text {
+  font-size: 20px;
+  padding: 0px;
+  margin-left: 10px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border: 0;
+  width: 300px;
+}
+
+.suggestion {
+  height: 4em;
+}
+
+input.checkbox {
+  width: 20px;
+
+}
+
+#submit {
+  margin-top: 10px;
+  margin-left: 10px;
 }
