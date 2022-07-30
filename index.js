@@ -6,8 +6,8 @@ const pitchClick = document.getElementById("pitchClick");
 
 
 function givePitch() {
-    pitch.style.width = "350px";
-    pitch.style.height = "275px";
+    pitch.style.width = "30%";
+    pitch.style.height = "30%";
     pitchInitial.style.display = "none"
     pitchClick.style.display = "contents"
 }
